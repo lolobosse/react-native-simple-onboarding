@@ -42,7 +42,7 @@ const styles = {
   },
   image: {
     flex: 0.5,
-    paddingBottom: 60,
+    paddingBottom: 30,
     justifyContent: 'center',
     alignItems: 'center',
   },
