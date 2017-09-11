@@ -9,9 +9,7 @@ const Page = ({ width, height, children }) => (
 
 const PageContent = ({ children }) => (
   <View style={styles.content}>
-    <View style={{ flex: 0 }}>
       {children}
-    </View>
   </View>
 );
 
@@ -36,7 +34,6 @@ const PageData = ({ isLight, image, title, subtitle, ...rest }) => (
 const styles = {
   content: {
     flex: 1,
-    flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -47,11 +44,11 @@ const styles = {
     alignItems: 'center',
   },
   otherElements: {
-    flex: 0.5
+    flex: 0.5,
   },
   title: {
     textAlign: 'center',
-    fontSize: 26,
+    fontSize: 24,
     color: '#fff',
     paddingBottom: 15,
   },
